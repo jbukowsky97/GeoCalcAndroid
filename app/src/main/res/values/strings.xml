@@ -9,4 +9,5 @@
         <item>Degrees</item>
         <item>Mils</item>
     </string-array>
+    <string name="title_activity_history">HistoryActivity</string>
 </resources>
