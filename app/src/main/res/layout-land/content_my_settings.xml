@@ -15,49 +15,43 @@
     tools:showIn="@layout/activity_my_settings">
 
     <RelativeLayout
-        android:id="@+id/left_half"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/left_side"
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/textView3"
+            android:text="Distance Units"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Distance Units"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true" />
+            android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <Spinner
-            android:id="@+id/distance_units"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/distance_units"
             android:layout_below="@+id/textView3"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentStart="true" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/right_half"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/right_side"
         android:layout_weight="1">
 
         <TextView
-            android:id="@+id/textView4"
+            android:text="Bearing Units"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bearing Units"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true" />
+            android:id="@+id/textView4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <Spinner
-            android:id="@+id/bearing_units"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/bearing_units"
             android:layout_below="@+id/textView4"
             android:layout_alignParentStart="true" />
     </RelativeLayout>

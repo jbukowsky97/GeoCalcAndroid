@@ -18,33 +18,23 @@
         android:text="Distance Units"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/textView3"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
         android:id="@+id/distance_units" />
 
     <TextView
         android:text="Bearing Units"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/distance_units"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
         android:id="@+id/textView4"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="11dp"
         android:id="@+id/bearing_units" />
 </LinearLayout>

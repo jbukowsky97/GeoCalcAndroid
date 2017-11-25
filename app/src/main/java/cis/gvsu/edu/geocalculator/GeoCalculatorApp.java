@@ -5,7 +5,7 @@ import android.app.Application;
 import net.danlew.android.joda.JodaTimeAndroid;
 
 /**
- * Created by jonah on 11/6/17.
+ * Created by engeljo on 3/23/17.
  */
 
 public class GeoCalculatorApp extends Application {
@@ -15,3 +15,4 @@ public class GeoCalculatorApp extends Application {
         JodaTimeAndroid.init(this);
     }
 }
+

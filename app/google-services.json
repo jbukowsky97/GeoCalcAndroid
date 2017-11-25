@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "361894500119",
+    "firebase_url": "https://cis-357-demo.firebaseio.com",
+    "project_id": "cis-357-demo",
+    "storage_bucket": "cis-357-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361894500119:android:ca382a209ade0f96",
+        "android_client_info": {
+          "package_name": "cis.gvsu.edu.geocalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361894500119-1kpmeldhope3f6avfk2l8m9tddphsfbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cis.gvsu.edu.geocalculator",
+            "certificate_hash": "1658390a110170f581107d33cbded0e897f3e939"
+          }
+        },
+        {
+          "client_id": "361894500119-45thnts5jp5onnnp5ng4v6sgtbcq51fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIxJ1wBspLrDyb_cGQRmJ0Z5boJKXwKQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361894500119-3i7dm28h4gophi1c4s43g4oqulpqu6f2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.gvsu.cis.GeoCalculator"
+              }
+            },
+            {
+              "client_id": "361894500119-45thnts5jp5onnnp5ng4v6sgtbcq51fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
